@@ -1,0 +1,42 @@
+.request-details {
+  background-color: #1e1e1e;  /* Dark background like VS Code */
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: #d4d4d4;
+  font-family: 'Courier New', Courier, monospace;  /* Monospaced font */
+  font-size: 14px;
+}
+
+.request-details code {
+  color: #9cdcfe; /* Light blue for URLs */
+}
+
+.highlighted {
+  background-color: #1e1e1e;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #ce9178; /* Soft orange for strings */
+  white-space: pre-wrap;  /* Preserve formatting */
+}
+
+.highlighted .key {
+  color: #569cd6; /* Blue for keys */
+}
+
+.highlighted .string {
+  color: #ce9178; /* Orange for strings/values */
+}
+
+.highlighted .boolean {
+  color: #569cd6; /* Blue for booleans */
+}
+
+.highlighted .number {
+  color: #b5cea8; /* Light green for numbers */
+}
+
+.highlighted .null {
+  color: #dcdcaa; /* Light yellow for null values */
+}
